@@ -1,0 +1,6 @@
+Windows_11_Pro_24H2_Build_26100.4351
+Windows_11_Enterprise-LTSC_24H2_Build_26100.4351
+
+
+Windows_10_Pro-22H2_Optimized
+Windows_10_Enterprise-LTSC-2021_Optimized_19044.6332

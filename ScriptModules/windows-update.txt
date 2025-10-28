@@ -1,0 +1,9 @@
+:: Windows Update - Set to Manual (All Editions)
+echo [*] Configuring Windows Update policies...
+reg add "HKLM\MOUNTED_SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v DoNotConnectToWindowsUpdateInternetLocations /t REG_DWORD /d 1 /f
+reg add "HKLM\MOUNTED_SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /v DisableWindowsUpdateAccess /t REG_DWORD /d 1 /f
+reg add "HKLM\MOUNTED_SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v NoAutoUpdate /t REG_DWORD /d 1 /f
+reg add "HKLM\MOUNTED_SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" /v AUOptions /t REG_DWORD /d 1 /f
+
+its reconnedn to do naully. dont set it up as default.
+only on current active live os only
